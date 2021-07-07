@@ -1,0 +1,23 @@
+{
+  "name": "ADOPT-ME",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write \"src/**/*.{js,jsx}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomTheToad/react-v6.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TomTheToad/react-v6/issues"
+  },
+  "homepage": "https://github.com/TomTheToad/react-v6#readme",
+  "devDependencies": {
+    "prettier": "^2.3.2"
+  }
+}
