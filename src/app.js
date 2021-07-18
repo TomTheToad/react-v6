@@ -1,3 +1,5 @@
+// React import is not neccessary with new version of Babel
+// Keeping import for consistency but will remove from other components
 import React from "react";
 import ReactDOM from "react-dom";
 import Pet from "./Pet";
