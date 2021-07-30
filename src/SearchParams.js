@@ -1,5 +1,3 @@
-// import { async } from "q";
-// import React from "react";
 import { useEffect, useState } from "react";
 import Pet from "./Pet";
 
@@ -63,6 +61,14 @@ const SearchParams = () => {
         </label>
         <button>Submit</button>
       </form>
+      {pets.map((pet) => (
+        <Pet
+          name={pet.name}
+          animal={pet.animal}
+          breed={pet.breed}
+          key={pet.id}
+        />
+      ))}
     </div>
   );
 };
