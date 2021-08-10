@@ -14,7 +14,7 @@ const App = () => {
       <Pet name="Nanook" animal="Dog" breed="Alaskan Malamute" />
       <Pet name="Mya" animal="Dog" breed="Alaskan Malamute" /> */}
     </div>
-  )
+  );
 };
 
 ReactDOM.render(<App />, document.getElementById("root"));
