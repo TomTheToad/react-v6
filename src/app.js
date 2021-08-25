@@ -2,7 +2,7 @@
 // Keeping import for consistency but will remove from other components
 import React from "react";
 import ReactDOM from "react-dom";
-// import Pet from "./Pet";
+import { StrictMode } from "react";
 import SearchParams from "./SearchParams";
 
 const App = () => {
@@ -10,11 +10,8 @@ const App = () => {
     <div>
       <h1>Adopt Me!</h1>
       <SearchParams />
-      {/* <Pet name="Kenai" animal="Dog" breed="Alaskan Malamute" />
-      <Pet name="Nanook" animal="Dog" breed="Alaskan Malamute" />
-      <Pet name="Mya" animal="Dog" breed="Alaskan Malamute" /> */}
     </div>
   );
 };
 
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(<StrictMode><App /></StrictMode>, document.getElementById("root"));
